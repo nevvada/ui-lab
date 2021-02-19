@@ -1,0 +1,31 @@
+#neutral-right-arm,
+#up-left-arm {
+  animation: opacityOn 0.5s normal 0s infinite;
+}
+
+#up-right-arm,
+#neutral-left-arm {
+  animation: opacityOff 0.5s normal 0s infinite;
+}
+
+
+@keyframes opacityOn {
+  0%, 50% {
+    opacity: 0;
+  }
+
+  51%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityOff {
+  0%, 50% {
+    opacity: 1;
+  }
+
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
