@@ -1,4 +1,35 @@
 <svg width="750" height="750" viewBox="0 0 750 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+#neutral-right-arm,
+#up-left-arm {
+  animation: opacityOn 0.5s normal 0s infinite;
+}
+
+#up-right-arm,
+#neutral-left-arm {
+  animation: opacityOff 0.5s normal 0s infinite;
+}
+
+@keyframes opacityOn {
+  0%, 50% {
+    opacity: 0;
+  }
+
+  51%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityOff {
+  0%, 50% {
+    opacity: 1;
+  }
+
+  51%, 100% {
+    opacity: 0;
+  }
+}
+</style>
 <g id="bongocat 1" clip-path="url(#clip0)">
 <g id="Artboard">
 <path id="Line" d="M586.061 452.482L789.5 501.5M-11.5 308.5L235.5 368.014L-11.5 308.5Z" stroke="black" stroke-width="5" stroke-linecap="round"/>
