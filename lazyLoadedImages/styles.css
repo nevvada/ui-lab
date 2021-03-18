@@ -13,10 +13,6 @@
   width: 100%;
 }
 
-.attribute-example {
-  background-color: #EAD5E6;
-}
-
 div {
   margin: 60vh 0;
 }
@@ -25,6 +21,10 @@ img {
   margin: 10px 0;
   height: auto;
   width: 50%;
+}
+
+.attribute-example {
+  background-color: #EAD5E6;
 }
 
 .intersection-observer-example {
