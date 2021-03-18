@@ -2,7 +2,7 @@ const renderImage = (entries) => {
   entries.forEach(entry => {
     const img = entry.target;
 
-    if (entry.intersectionRatio) {
+    if (entry.intersectionRatio && !img.src) {
       img.src = img.dataset.src;
     }
   });
