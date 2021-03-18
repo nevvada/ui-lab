@@ -12,7 +12,7 @@
     <div>scroll down</div>
     <div>keeep scrollin'</div>
     <h1>
-      loaded with <pre>loading="lazy"</pre> attribute
+      loaded with <code>loading="lazy"</code> attribute
     </h1>
     <img
       loading="lazy"
@@ -26,19 +26,29 @@
       loading="lazy"
       src="images/img3.jpg"
     />
-    <img
-      loading="lazy"
-      src="images/img4.jpg"
-    />
-    <img
-      loading="lazy"
-      src="images/img5.jpg"
-    />
-    <img
-      loading="lazy"
-      src="images/img6.jpg"
-    />
     <div>fin</div>
+
+    <div class="wrapper intersection-observer-example">
+      <div>scroll down</div>
+      <div>keeep scrollin'</div>
+      <h1>
+        loaded with Intersection Observer API
+      </h1>
+      <img
+        data-src="images/img4.jpg"
+        id="img4"
+      />
+      <img
+        data-src="images/img5.jpg"
+        id="img5"
+      />
+      <img
+        data-src="images/img6.jpg"
+        id="img6"
+      />
+      <div>fin</div>
   </div>
+
+  <script src="./index.js" />
 </body>
 </html>
