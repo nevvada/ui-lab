@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lazy Loaded Images</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.0/lazysizes.min.js" async=""></script>
 </head>
 <body>
   <div class="wrapper attribute-example">
@@ -29,8 +30,7 @@
     <div>fin</div>
 
     <div class="wrapper intersection-observer-example">
-      <div>scroll down</div>
-      <div>keeep scrollin'</div>
+      <div>scrollll</div>
       <h1>
         loaded with Intersection Observer API
       </h1>
@@ -46,9 +46,33 @@
         data-src="images/img6.jpg"
         id="img6"
       />
-      <div>fin</div>
+    <div>fin</div>
   </div>
 
-  <script src="./index.js" />
+    <div class="wrapper lazysizes-example">
+      <div>scroll scroll</div>
+      <h1>
+        loaded with lazysides
+      </h1>
+      <img
+        class="lazyload"
+        data-src="images/img7.jpg"
+        id="img7"
+      />
+      <img
+        class="lazyload"
+        data-src="images/img8.jpg"
+        id="img8"
+      />
+      <img
+        class="lazyload"
+        data-src="images/img9.jpg"
+        id="img9"
+      />
+    <div>fin</div>
+  </div>
+
+  <script src="./intersectionObserverExample.js" />
+  <script src="./lazysizesExample.js" />
 </body>
 </html>
