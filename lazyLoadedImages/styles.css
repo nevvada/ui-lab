@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.attribute-example {
+  background-color: #EAD5E6;
+}
+
+div {
+  margin: 60vh 0;
+}
+
+img {
+  margin: 10px 0;
+  width: 50%;
+}
