@@ -1,4 +1,4 @@
-const button = document.querySelector('#openModal');
+const button = document.querySelector('.open-modal-button');
 
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
