@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+#asides-wrapper {
+  display: flex;
+}
+
+#left-aside {
+  /* width: 70%; */
+  border: 1px solid pink;
+  flex-grow: 1.5;
+}
+
+#right-aside {
+  border: 1px solid cyan;
+  /* width: 30%; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+#right-aside div {
+  height: 60%;
+  /* width: 40%; */
+  border: 1px solid black;
+  border-radius: 50%;
+  flex-grow: 1;
+}
+
+header {
+  border: 1px solid purple;
+  height: 300px;
+}
+
+table {
+  border: 1px solid greenyellow;
+  height: 300px;
+  width: 100%;
+}
+
+main {
+  border: 1px solid peru;
+  height: 100%;
+}
