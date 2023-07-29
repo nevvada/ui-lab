@@ -34,3 +34,14 @@ img {
 .lazysizes-example {
   background-color: #DEF6CA;
 }
+
+.reveal {
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  transform: translateY(-20px);
+}
+
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -2,8 +2,9 @@ const renderImage = (entries) => {
   entries.forEach(entry => {
     const img = entry.target;
 
-    if (entry.intersectionRatio && !img.src) {
+    if (entry.isIntersecting && !img.src) {
       img.src = img.dataset.src;
+      entry.target.classList.add('reveal-visible');
     }
   });
 };
